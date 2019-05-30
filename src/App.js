@@ -29,7 +29,7 @@ class VideoBackgroundPage extends Component {
             <MDBNavbar style={navStyle} dark expand="md" fixed="top">
               <MDBContainer>
                 <MDBNavbarBrand>
-                  <span className="white-text">MDBNavbar</span>
+                  <span className="white-text">Beth</span>
                 </MDBNavbarBrand>
                 <MDBNavbarToggler
                   onClick={this.toggleCollapse("navbarCollapse")}
@@ -41,13 +41,13 @@ class VideoBackgroundPage extends Component {
                 >
                   <MDBNavbarNav left>
                     <MDBNavItem>
-                      <MDBNavLink to="#!">Home</MDBNavLink>
-                    </MDBNavItem>
-                    <MDBNavItem>
                       <MDBNavLink to="#!">About</MDBNavLink>
                     </MDBNavItem>
                     <MDBNavItem>
-                      <MDBNavLink to="#!">Features</MDBNavLink>
+                      <MDBNavLink to="#!">Portfolio</MDBNavLink>
+                    </MDBNavItem>
+                    <MDBNavItem>
+                      <MDBNavLink to="#!">Contact</MDBNavLink>
                     </MDBNavItem>
                   </MDBNavbarNav>
                   <MDBNavbarNav right>
